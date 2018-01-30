@@ -3,7 +3,7 @@ TODO: make delete/edit work on existing shares
 TODO: navigate to record if clicking on user/group from existing
 -->
 
-<aura:component controller="LightningSharing">
+<aura:component controller="LightningSharing" implements="forceCommunity:availableForAllPageTypes,force:hasRecordId">
 
 	<aura:attribute name="shares" type="object[]" />
 	<aura:attribute name="sObjectName" type="String" />
